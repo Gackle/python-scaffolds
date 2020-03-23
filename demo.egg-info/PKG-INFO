@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: demo
+Version: 0.1.0
+Summary: Demo of Python modern practise
+Home-page: UNKNOWN
+Author: huangjh82
+Author-email: huangjh82@chinaunicom.cn
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
