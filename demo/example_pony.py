@@ -1,15 +1,15 @@
-from pony.orm import *
+from pony import orm  # type: ignore
 
 
-@db_session
+@orm.db_session
 def get_wxpay_order():
     result = db.select("* FROM T_WXPAY_ORDER")
     return result
 
 
 if __name__ == "__main__":
-    set_sql_debug(True)
-    db = Database()
+    orm.set_sql_debug(True)
+    db = orm.Database()
     db.bind(
         provider="oracle",
         user="huangjh82",

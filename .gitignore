@@ -1,4 +1,7 @@
 .pytest_cache/
+.mypy_cache/
 .vscode/
 .idea/
 __pycache__/
+poetry.lock
+indexdir/
